@@ -1,4 +1,4 @@
-# Network Intrusion Detection Project
+# Network Intrusion Detection System using ML
 
 ## Introduction
 
