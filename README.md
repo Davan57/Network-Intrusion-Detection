@@ -51,5 +51,52 @@ Cross-validation is used to provide a more reliable estimate of model performanc
 
 To run this project, you need to have Python installed along with the necessary libraries. You can install the required packages using:
 
-```bash
 pip install -r requirements.txt
+
+## Usage
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/network-intrusion-detection
+    cd network-intrusion-detection
+    ```
+
+2. **Prepare the dataset:** Ensure your dataset is properly formatted and located in the project directory.
+
+3. **Run the models:** Execute the main script to train and evaluate all models.
+
+    ```bash
+    python main.py
+    ```
+
+4. **Visualize Results:** The script will generate accuracy and precision plots for easy comparison.
+
+## Results
+
+### Accuracy Comparison
+
+### Precision Comparison
+
+### Key Findings
+- **Best Performers:** Random Forest and Decision Tree Classifier achieved the highest accuracy (99.02%) with excellent precision and recall.
+- **Neural Networks:** High accuracy and performance but longer execution time.
+- **K-Means:** Performed poorly compared to supervised models, indicating the importance of labeled data for accurate classification.
+
+### Confusion Matrices
+Confusion matrices are plotted for each model to provide a deeper understanding of classification performance.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for review.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
